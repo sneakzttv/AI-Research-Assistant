@@ -1,0 +1,104 @@
+# ==============================
+# Python
+# ==============================
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# AI / Vector Database
+# ==============================
+
+# ChromaDB persistent database
+chroma_db/
+.chroma/
+
+# Local vector database files
+*.sqlite3
+*.db
+
+
+# ==============================
+# User Data
+# ==============================
+
+# Uploaded documents
+documents/uploads/
+
+# Generated files
+documents/processed/
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# Testing
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+
+# VS Code local settings
+*.code-workspace
+
+
+# ==============================
+# OS
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ==============================
+# Node / React
+# ==============================
+
+node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
