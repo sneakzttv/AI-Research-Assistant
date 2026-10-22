@@ -1,0 +1,9 @@
+services:
+  research:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - research-data:/app/data
+volumes:
+  research-data:

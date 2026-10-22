@@ -1,0 +1,25 @@
+/* Shared spacing and high contrast keep the learning controls easy to scan. */
+:root { font-family: system-ui, sans-serif; color: #dce8f5; background: #0b1423; line-height: 1.6; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1200px; margin: auto; padding: 2rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: .4rem 0; }
+h2, h3 { color: #fff; }
+.badge { color: #7ee6ca; letter-spacing: .15em; font-size: .8rem; }
+.muted, footer { color: #acbdd2; }
+aside, section { background: #142238; border: 1px solid #31435d; padding: 1.5rem; border-radius: 16px; margin: 1rem 0; }
+aside { border-color: #59bba7; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.row { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+label { display: block; margin-top: 1rem; }
+input, textarea { display: block; width: 100%; background: #0b1423; color: #fff; border: 1px solid #7488a4; padding: .7rem; border-radius: 6px; font: inherit; }
+button { background: #86ecd0; color: #102323; border: 0; padding: .7rem 1rem; margin: .6rem 0; border-radius: 6px; font: inherit; font-weight: 650; cursor: pointer; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+:focus-visible { outline: 3px solid #ffc96e; outline-offset: 3px; }
+a { color: #8bd6ff; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }
+details { padding: .8rem 0; border-bottom: 1px solid #31435d; }
+summary { cursor: pointer; }
+.error { color: #ffb7b7; border: 1px solid #ffb7b7; padding: 1rem; }
+progress { width: 100%; accent-color: #86ecd0; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } main { padding: 1rem; } }
