@@ -26,6 +26,8 @@ dist/
 .env
 .env.*
 !.env.example
+# Public Pages build flag, not credentials.
+!frontend/.env.pages
 
 
 # ==============================
